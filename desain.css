@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: end;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, rgb(27, 27, 27), rgb(54, 54, 54), rgb(85, 85, 85) );
+ }
+ 
+ .navbar-brand:hover {
+     font-weight: bolder;   
+ }
+ 
+ .nav-link:hover {
+     font-size: 14pt;
+     cursor: pointer;
+ }
+
+
+.menu {
+    font-family: Georgia;
+}
+.banner {
+    background-color: #f6f4f1;
+    background-size: 100px;
+    width: 700px;
+    height: 700px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border: 5px rgb(141, 100, 141);
+    width: 100%;
+    max-width: 100%;
+    padding: 0 1rem;
+    margin: 0 auto
+}
+
+.wrap {
+      width: max-content;
+    }
+.rainbow-text {
+    font-size: 3em;
+    background: linear-gradient(to right, blue, green, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: rainbowAnimation 2s linear infinite;
+    overflow: hidden;
+    font-size: 20px;
+    white-space: nowrap;
+    border-right: 1px solid black;
+    padding-right: 5px;
+      animation: typing 5s steps(50) infinite alternate,
+                  blink 0.7s infinite;
+    }
+    @keyframes typing {
+      0% {
+        width: 0%;
+        visibility: hidden;
+      }
+      100% {
+        width: 100%;
+      }
+    }
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+      100% {
+        border-color: black;
+      }
+    }
+
+.border {
+    --br-x: 200px;
+    --br-y: 100px;
+    border-top-right-radius: 
+    var(--br-x) var(--br-y);
+    --br-x: 100px;
+    --br-y: 100px;
+    border-bottom-right-radius: 
+    var(--br-x) var(--br-y);
+    --br-x: 100px;
+    --br-y: 100px;
+    border-top-left-radius: 
+    var(--br-x) var(--br-y);
+    --br-x: 100px;
+    --br-y: 100px;
+    border-bottom-left-radius: 
+    var(--br-x) var(--br-y);
+
+}
+.hallo {
+    font-size: 20pt;
+    color: #00f;
+}
+.col-7 {
+    text-align: center;
+    font-size: 40pt;
+    font-weight: bold;
+    color: #00f;
+}
+.col-9 {
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: Monospace;
+    padding-bottom: 20px;
+    
+}
+.col-6 {
+    padding-top: 50px;
+}
+.von {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.card {
+  values: static relative absolute fixed sticky
+}
+.foto {
+    
+    padding-bottom: 100px;
+    padding-top: 200px;
+    background-size: 20%;
+}
+.quotes{
+    
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.cards {
+    font-family: Monospace;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: #f6f4f1;
+    position: relative;
+    position: absolute top;
+}
+.Judul {
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.contact {
+    padding-top: 100px;
+}
+.kontak {
+    position: relative;
+    position: absolute top;
+}
+.button {
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.accordion {
+    padding: 100px;
+
+}
+.skill {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
